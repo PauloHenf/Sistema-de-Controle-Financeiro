@@ -20,6 +20,7 @@ export const Container = styled.div`
 export const InputContent = styled.div`
   display: flex;
   flex-direction: column;
+  padding: 4px;
 `;
 
 export const Label = styled.label`
@@ -28,8 +29,8 @@ export const Label = styled.label`
 
 export const Input = styled.input`
   outline: none;
-  border-radius: 5px;
-  padding: 5px 10px;
+  border-radius: 4px;
+  padding: 5px 16px;
   font-size: 15px;
   border: 1px solid #ccc;
 `;
@@ -46,6 +47,7 @@ export const RadioGroup = styled.div`
 `;
 
 export const Button = styled.button`
+  margin-top: 8px;
   padding: 5px 10px;
   border: none;
   border-radius: 5px;
@@ -53,4 +55,10 @@ export const Button = styled.button`
   color: white;
   background-color: teal;
   text-transform: uppercase;
+  height: 50px;
+  &:hover {
+    background-color: coral;
+    font-weight: bold;
+  };
+
 `;

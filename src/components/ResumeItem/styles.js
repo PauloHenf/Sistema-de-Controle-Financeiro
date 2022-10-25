@@ -3,11 +3,11 @@ import styled from 'styled-components';
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: center;
+  //align-items: center;
   background-color: #fff;
   border-radius: 5px;
-  padding: 5px 15px;
-  width: 30%;
+  padding: 5px 25px;
+  //width: 30%;
 
   @media (max-width: 750px) {
     width: 20%;
@@ -29,9 +29,9 @@ export const Container = styled.div`
 export const Header = styled.header`
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 100%;
-  gap: 10px;
+  //gap: 10px;
   margin: 20px auto;
   svg {
     width: 25px;
@@ -45,5 +45,5 @@ export const HeaderTitle = styled.p`
 
 export const total = styled.span`
   font-size: 30px;
-  font-weight: bold;
+  font-weight: 600;
 `;

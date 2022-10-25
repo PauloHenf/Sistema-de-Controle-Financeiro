@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  height: 150px;
+  height: 225px;
   text-align: center;
   background: teal;
 `;
@@ -9,6 +9,6 @@ export const Container = styled.div`
 export const Header = styled.h1``;
 
 export const Title = styled.div`
-  padding-top: 20px;
+  padding-top: 60px;
   color: #fff;
 `;

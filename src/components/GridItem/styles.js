@@ -1,6 +1,10 @@
 import styled from "styled-components";
 
-export const Tr = styled.tr``;
+export const Tr = styled.tr`
+  border-collapse: separate;
+  border-spacing: 10px;
+  border: 4px solid #fff;
+`;
 
 export const Td = styled.td`
   padding-top: 15px;
